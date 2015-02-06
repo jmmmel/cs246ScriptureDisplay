@@ -15,7 +15,7 @@ public class DisplayScripture extends ActionBarActivity {
         Intent intent = getIntent();
         String message = intent.getStringExtra(ScriptureReader.EXTRA_MESSAGE);
         TextView scriptureDisplayValue = new TextView(this);
-        scriptureDisplayValue.setTextSize(80);
+        scriptureDisplayValue.setTextSize(50);
         scriptureDisplayValue.setText(message);
         setContentView(scriptureDisplayValue);
     }
